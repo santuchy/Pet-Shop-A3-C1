@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Shop</title>
+    <link rel="shortcut icon" href="./c1-assets/logo-header.png" type="">
     <!-- Google font CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +24,7 @@
     <header>
      <nav class="bg-base-100 bg-[#FFF9F4]">
       <div class="bord">
-        <div class="navbar justify-between items-center border-2 border-[#01010176] md:w-11/12 md:border-0 mx-auto">
+        <div class="navbar justify-between items-center border-2 border-[#01010176] max-w-7xl md:w-11/12 md:border-0 mx-auto">
           <div class="navbar-start gap-2">
               <img src="./c1-assets/logo-header.png" alt="">
            <h3 class="font-medium invisible md:visible lg:visible">Browse<span class="text-[#FFDC26]">4</span>Pets</h3>
@@ -62,7 +63,6 @@
      </nav>
     </header>
 
-
     <!-- Main Section -->
     <main>
        <!-- Banner Cat Section -->
@@ -73,7 +73,6 @@
             <a class="btn bg-[#FFDC26] animate-bounce animate-duration-500 animate-repeat-3">Find a pet</a>
            </div>
         </section>
-
 
         <!-- Browse Section -->
          <section class="max-w-7xl px-3 py-3 mx-auto mt-5 md:mt-12 lg:mt-16">
@@ -94,7 +93,7 @@
               </figure>
               <div class="card-body items-center text-center">
                   <h2 class="card-title">Dog</h2>
-                  <p class="text-[#111111] opacity-70">3 items</p>
+                  <p class="text-[#111111] opacity-70">5 items</p>
 
               </div>
           </div>
@@ -109,7 +108,7 @@
               </figure>
               <div class="card-body items-center text-center">
                   <h2 class="card-title">Fish</h2>
-                  <p class="text-[#111111] opacity-70">3 items</p>
+                  <p class="text-[#111111] opacity-70">2 items</p>
 
               </div>
           </div>
@@ -124,7 +123,7 @@
               </figure>
               <div class="card-body items-center text-center">
                   <h2 class="card-title">Cat</h2>
-                  <p class="text-[#111111] opacity-70">3 items</p>
+                  <p class="text-[#111111] opacity-70">9 items</p>
 
               </div>
           </div>
@@ -139,7 +138,7 @@
               </figure>
               <div class="card-body items-center text-center">
                   <h2 class="card-title">Birds</h2>
-                  <p class="text-[#111111] opacity-70">3 items</p>
+                  <p class="text-[#111111] opacity-70">4 items</p>
 
               </div>
           </div>
@@ -154,7 +153,7 @@
               </figure>
               <div class="card-body items-center text-center">
                   <h2 class="card-title">Small pet</h2>
-                  <p class="text-[#111111] opacity-70">3 items</p>
+                  <p class="text-[#111111] opacity-70">5 items</p>
 
               </div>
           </div>
@@ -168,8 +167,8 @@
                       </div>
               </figure>
               <div class="card-body items-center text-center">
-                  <h2 class="card-title">Rabit</h2>
-                  <p class="text-[#111111] opacity-70">2 items</p>
+                  <h2 class="card-title">Rabbit</h2>
+                  <p class="text-[#111111] opacity-70">7 items</p>
 
               </div>
           </div>
@@ -368,7 +367,6 @@
           </section>
           <!-- End of Pet Products section  -->
      
-
           <!-- Everyday low price section -->
           <section class="max-w-7xl px-3 py-14 mx-auto">
             <h2 class="text-2xl md:text-4xl lg:text-4xl">Everyday low Price</h2>
@@ -400,7 +398,7 @@
           <!-- End of Everyday low price section -->
 
           <!-- FAQs Section -->
-           <section class="max-w-7xl mx-auto px-3 rounded-md ">
+           <section class="max-w-7xl mx-auto px-3 rounded-md pb-20">
             <h2 class="text-2xl md:text-4xl lg:text-4xl text-center px-3 py-8 lg:py-14">General FAQs</h2>
             <div class="collapse collapse-arrow bg-gradient-to-r from-[#F9DF8A] to-[#FFF9F4]">
               <input type="radio" name="my-accordion-2" checked="checked" />
@@ -435,8 +433,22 @@
 
         </main>
 
-    <!-- Footer Section -->
-      <footer class="mt-20 pt-60 bg-[rgb(255,220,38,0.5)]">
+    <!-- Footer -->
+      <footer class="mt-60 pt-60 bg-[rgb(255,220,38,0.5)] relative">
+        <!-- Pawsome News Section -->
+        <section class="max-w-7xl mx-auto pt-3 pb-3 px-3 -mt-[28rem] ">
+          <div class="flex flex-col md:flex-row lg:flex-row rounded-xl justify-around items-center bg-[#FFF9F4] py-14 lg:py-0">
+            <div><img src="./c1-assets/cute-pet-mid.png" alt=""></div>
+            <div class="space-y-6 text-center lg:text-left">
+              <h2 class="font-bold text-3xl">Get Pawsome News!</h2>
+              <p class="text-l text-black">Exclusive training tips, tricks, product deals and more.</p>
+              <input class="w-[312px] h-[42px] pl-4 lg:w-[472px] lg:h-[67px]" type="email" placeholder="Enter email...." name="" id=""><br>
+              <button class="btn bg-[#FFDC26]">Subscribe</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer section -->
         <section
           class="max-w-7xl px-3 py-14 mx-auto flex flex-col lg:flex-row lg:justify-between lg:items-end lg:b-32">
           <!-- left footer-->
@@ -469,6 +481,9 @@
             </div>
           </div>
         </section>
+        <div class="pb-5 lg:pb-7 text-center font-normal text-xs lg:text-base lg:font-normal text-black ">
+          <p>© 2025 Developed by Dipra Chowdhury. All rights reserved.</p>
+        </div>
     </footer>
     
 </body>
